@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BeTheChange</title>
+    <link rel="icon" href="/pic/cheart.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul id="navlist">
+            <li>
+                <a href="#motivation">Motivation</a>
+            </li>
+            <li>
+                <a href="#resources">Resources</a>
+            </li>
+            <li>
+                <a href="#form">Form</a>
+            </li>
+            <li>
+                <button id="theme-btn">Dark</button>
+            </li>
+        </ul>
+        
+    </nav>
+
+    <!-- main -->
+    <div class="heater-container">
+        <div class="header-item">        
+            <img src="/pic/cheart.png" alt="heart in a circle">
+        </div>        
+        <div class="header-item">
+            <h1>You are the change</h1>
+        </div>
+        
+            
+    </div>
+
+    <!-- motivation -->
+    <div id="motivation">
+        <h2>Daily Motivation</h2>
+        <iframe class = "video" width="560" height="315" src="https://www.youtube.com/embed/FIm4bAu2CJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <!-- resources -->
+    <div id="resources">
+        <h2>Resources</h2>
+        <table class="table">
+            <tr>
+                <th><img src="pic/flower_brain.jpg" alt="flower brain" width="150" height="150"></th>
+                <th><img src="pic/heart.png" alt="heart" width="150" height="150"></th>
+                <th><img src="pic/everything.avif" alt="happy life" width="150" height="150"></th>
+            </tr>
+            <tr>
+                <th><h3>Mental health</h3></th>
+                <th><h3>Physical health</h3></th>
+                <th><h3>Everything else</h3></th>
+            </tr>
+            <tr>
+                <th>
+                    <p>This is our Soul. Mental health helps you with self-control, self-awareness 
+                    and self-care. Our toughts are powerful. They can reborn our 
+                    new-self and also kill us.
+                    </p>
+                </th>
+                <th>
+                    <p>This is our body.Physical health helps us to improve our focus, brain performance and productivity. 
+                        This is our machine where we build everyday. By making choises about how we maintain our body, will affect 
+                        our being
+                    </p>
+                </th>
+                <th>
+                    <p>Everything else that exist outside our body and mind that requires our attencion is carrer, parenting, frindships and more. 
+                        This is the 3rd most important thing, perform in high level in everything else 
+                        first we must take care of the body and mind. To be the change, 
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <form action="https://youtu.be/y-ACcDIGi-c" method=""get target=""_blank>
+                        <button class="btn" type="submit">See more</button>
+                    </form>
+                </th>
+                <th>
+                    <form action="https://youtu.be/Srvnee0ha3g" method=""get target=""_blank>
+                        <button class="btn" type="submit">See more</button>
+                    </form>
+                </th>
+                <th>
+                    <form action="https://youtu.be/Srvnee0ha3g" method=""get target=""_blank>
+                        <button class="btn" type="submit">See more</button>
+                    </form
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- templet -->
+    <div id="form">
+       
+        <div class="left-side-forms">
+            <div class="info">
+                <h2>Create daily plan</h2>
+                <p>Here you can write 9 things for 3 in each section to work on today.</p>
+            </div>
+            <form id="myForm" action="">
+                <div class="forms">
+                    
+                    <div>
+                        <h3>Mental Health</h3>
+                        <ol>
+                            <li><input type="text" id="mh1" name="mh1" placeholder="I read"></li>
+                            <li><input type="text" id="mh2" name="mh2" placeholder="I breath"></li>
+                            <li><input type="text" id="mh3" name="mh3" placeholder="I meditade"></li>
+                        </ol>                    
+                    </div>
+                    <div>
+                        <h3>Physical Health</h3>
+                        <ol>
+                            <li><input type="text" id="ph1" name="ph1" placeholder="I walk"></li>
+                            <li><input type="text" id="ph2" name="ph2" placeholder="I dance"></li>
+                            <li><input type="text" id="ph3" name="ph3" placeholder="I do yoga"></li>
+                        </ol>                                                 
+                    </div>
+                    <div>
+                        <h3>Everythin else</h3>  
+                        <ol>
+                            <li><input type="text" id="ee1" name="ee1" placeholder="I finish a project"></li>
+                            <li><input type="text" id="ee2" name="ee2" placeholder="I say a nice word "></li>
+                            <li><input type="text" id="ee3" name="ee3" placeholder="I help someone"></li>
+                        </ol>                       
+                    </div>
+                </div>
+                <div>                    
+                    <label for="name">Nickname:</label>
+                    <input type="text" id="name" name="name" placeholder="Slavy">
+                    <label for="hometown">Hometown:</label>
+                    <input type="text" id="town" name="town" placeholder="California">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="codepath@gmail.com">
+                    <input type="submit" id="submit-btn" value="Submit">                                      
+                </div>
+            </form>
+        </div>
+        <div class="right-side-submission">
+            <p id="counter">🖊️ 3 people made a change today</p>
+            <p>🖊️Slavyana from California made a change today!</p>
+            <p>🖊️Justin from New York made a change today!</p>
+            <p>🖊️Alegria from Brazil made a change today!</p>
+        </div>
+
+        <!-- <table>
+            <tr>
+                <th>
+                    <h3>Mental Health</h3>
+                    <form action=""></form>
+                </th>
+                <th>
+                    <h3>Physical Health</h3>
+                    <form action=""></form>
+                </th>
+                <th>
+                    <h3>Everythin else</h3>
+                    <form action=""></form>
+                </th>
+            </tr>
+        </table> -->
+    </div>   
+
+    <!-- Modal -->
+    <div id="thanks-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div id="modal-text-content">
+                <!-- text here  -->
+                <p id="thanks-modal-content" placeholder="Modal iss here"></p>
+                <!-- button here  -->
+                <button id="modal-btn">Clear</button>
+
+
+            </div>
+
+            <!-- image here  -->
+            <img  id="thanks-modal-image" src="/pic/cheart.png" alt="heart in a circle">
+
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <a id="footerbtn" href="https://www.louisehay.com/">Louise Hey</a>
+        <p class="copyright">© 2023 Slavyana Nedelcheva</p>
+    </footer> 
+    <script src="index.js"></script>
+</body>
+</html>
